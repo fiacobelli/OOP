@@ -1,0 +1,50 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 473
+    length: 117
+    placeholder_text: |-
+      /* TODO */
+      Set the tmeperature of bart to 101.2, maggie 100.1, and lisa 100.6
+  - offset: 624
+    length: 137
+    placeholder_text: |-
+      /* TODO */
+      Add the following jobs for homer: Nuclear Engineer, Major and Bar Owner.
+      For marge only one job: Hose Keeper.
+  - offset: 831
+    length: 190
+    placeholder_text: |-
+      /* TODO */
+      Insert the Simpsons in the Patients' array: in the following order:
+      bart, lisa, maggie, homer and marge.
+- name: test/Tests.java
+  visible: false
+- name: src/Person.java
+  visible: true
+- name: src/Diagnosticable.java
+  visible: true
+  placeholders:
+  - offset: 63
+    length: 67
+    placeholder_text: |-
+      /* TODO */
+      Declare a hasFever method that reutrns true is the temperature
+      is greater than 100.4
+  - offset: 213
+    length: 58
+    placeholder_text: "/* TODO */\nDecleare two setters. One for systolic and one\
+      \ for diastolic. \nCheck the getters to infer the parameter types."
+- name: src/Employable.java
+  visible: true
+- name: src/AdultPatient.java
+  visible: true
+  placeholders:
+  - offset: 54
+    length: 912
+    placeholder_text: "/* TODO */\nImplement the class Adult Patient. \nAn adult patient\
+      \ is a Person that is Diagnosticable and that is Employable."
+- name: src/ChildPatient.java
+  visible: true
